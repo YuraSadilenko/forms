@@ -18,6 +18,8 @@ FIXES
  
  Using enter between blocks of code; 
  
+ Id added to the label for color; 
+  
  datalist chaged to select; 
  
  placeholder and maxlength added to textarea tag; 
