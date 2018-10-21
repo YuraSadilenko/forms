@@ -14,15 +14,15 @@ Fixed version
 
 FIXES 
 ---
- Radio buttons fixed - selectable now;
- ***
- Using enter between blocks of code;
- ***
- datalist chaged to select;
- ***
- placeholder and maxlength added to textarea tag;
- ***
- required added to select tag;
- ***
+ Radio buttons fixed - selectable now; 
+ 
+ Using enter between blocks of code; 
+ 
+ datalist chaged to select; 
+ 
+ placeholder and maxlength added to textarea tag; 
+ 
+ required added to select tag; 
+ 
 
 
