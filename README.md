@@ -1,7 +1,7 @@
 Forms practice 
 === 
 
-GHPages link: file:///C:/Users/Enki1/OneDrive/Робочий%20стіл/IT/mate_1/index.html
+GHPages link: https://yurasadilenko.github.io/forms/
 
 HW #1
 ---
