@@ -10,28 +10,26 @@
 
     <h1>Personal information</h1>
     <form method="post" action="https://mate-academy-form-lesson.herokuapp.com/create-application">
-
             <fieldset>
-             <legend> Personal information</legend>
+                <legend> Personal information</legend>  
+                <label for="surname">Surname:</label>    
+                <input name="surname" type="text" id="surname"><br>
+                <br>  
 
-             <label for="surname">Surname:</label>    
-             <input name="surname" type="text" id="surname"><br>
-             <br>
+                <label for="name">Name:</label>    
+                <input name="name" type="text" id="name"><br>
+                <br>  
 
-             <label for="name">Name:</label>    
-             <input name="name" type="text" id="name"><br>
-             <br>
+                <label for="age">How old are you?:</label>    
+                <input name="age" type="number" id="age"><br>
+                <br>   
 
-             <label for="age">How old are you?:</label>    
-             <input name="age" type="number" id="age"><br>
-             <br>
+                <label for="birth">Full date of birth</label>    
+                <input name="birth" type="date" id="birth"><br>
+                <br>
 
-             <label for="birth">Full date of birth</label>    
-             <input name="birth" type="date" id="birth"><br>
-             <br>
-
-            <label for="accept">I accept the term of the agreemen </label>
-            <input name="accept" type="checkbox" value="yes" id="accept">
+                <label for="accept">I accept the term of the agreemen </label>
+                <input name="accept" type="checkbox" value="yes" id="accept">
 
             </fieldset>
 
@@ -52,10 +50,10 @@
                 <legend> An interesting fact about you! </legend>
                 <p> Do you love cats</p>
                 <label for="yes">Yes</label>
-                <input name="choice" type="radio" name="pet" id="yes" value="yes"><br>
+                <input type="radio" name="pet" id="yes" value="yes"><br>
 
                 <label for="no">Not</label>
-                <input  name="choice" type="radio" name="pet" id="no" value="no"><br>
+                <input type="radio" name="pet" id="no" value="no"><br>
 
                 <label for="color">what is your favorite color?</label> 
                 <input name="color" type="color" id="color"><br>
@@ -65,13 +63,15 @@
                 <input name="time" type="time" id="time">
                 <br>
 
-                <label for="car">What your favorite brand of cars</label><br>
+                <label for="cars">What your favorite brand of cars</label><br>
                 <br>
 
-                <select name="car" list="cars" id="cars" required>
-                    <option>Lada</option>
-                    <option>AUDI</option>
-                    <option>BMW</option>
+                <select name="car" list="cars" id="cars" size="4" multiple>
+                    <option value="s1">BMW</option>
+                    <option value="s2">Audi</option>
+                    <option value="s3"selected>Lada</option>
+                    <option value="s4" disabled>&nbsp;</option>
+
                 </select>
                 <br>
                 
