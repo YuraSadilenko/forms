@@ -10,87 +10,87 @@
 
     <h1>Personal information</h1>
     <form method="post" action="https://mate-academy-form-lesson.herokuapp.com/create-application">
-            <fieldset>
-                <legend> Personal information</legend>  
-                <label for="surname">Surname:</label>    
-                <input name="surname" type="text" id="surname"><br>
-                <br>  
 
-                <label for="name">Name:</label>    
-                <input name="name" type="text" id="name"><br>
-                <br>  
+        <fieldset>
 
-                <label for="age">How old are you?:</label>    
-                <input name="age" type="number" id="age"><br>
-                <br>   
+            <legend> Personal information</legend>  
 
-                <label for="birth">Full date of birth</label>    
-                <input name="birth" type="date" id="birth"><br>
-                <br>
+            <label for="surname">Surname:</label>    
+            <input name="surname" type="text" id="surname"><br>
+            <br>  
 
-                <label for="accept">I accept the term of the agreemen </label>
-                <input name="accept" type="checkbox" value="yes" id="accept">
+            <label for="name">Name:</label>    
+            <input name="name" type="text" id="name"><br>
+            <br>  
 
-            </fieldset>
+            <label for="age">How old are you?:</label>    
+            <input name="age" type="number" id="age"><br>
+            <br>  
 
-            <fieldset>
-                <legend> Registration </legend>
-
-                <label for="email">E-mail</label>
-                <input name="email" type="email" autocomplete="off" id="email"><br>
-                <br>
-
-                <label for="password">Password</label>
-                <input name="password" type="password" id="password"><br>
-                <br>
-
-            </fieldset>
-
-            <fieldset>
-                <legend> An interesting fact about you! </legend>
-                <p> Do you love cats</p>
-                <label for="yes">Yes</label>
-                <input type="radio" name="pet" id="yes" value="yes"><br>
-
-                <label for="no">Not</label>
-                <input type="radio" name="pet" id="no" value="no"><br>
-
-                <label for="color">what is your favorite color?</label> 
-                <input name="color" type="color" id="color"><br>
-                <br>
-
-                <label for="time">What time do you go to bed</label>
-                <input name="time" type="time" id="time">
-                <br>
-
-                <label for="cars">What your favorite brand of cars</label><br>
-                <br>
-
-                <select name="car" list="cars" id="cars" size="4" multiple>
-                    <option value="s1">BMW</option>
-                    <option value="s2">Audi</option>
-                    <option value="s3"selected>Lada</option>
-                    <option value="s4" disabled>&nbsp;</option>
-
-                </select>
-                <br>
-                
-                <label for="range">How do you rate your work</label><br>
-                <input name="range" type="range" min="0" max="100" step="1" value="50" id="range"><br>
-                <br>
-            </fieldset>
-
-            <fieldset>
-                <legend>Your comments:</legend>
-
-                <p>
-                    <textarea name="comment" placeholder="comment here" maxlength="250"></textarea>
-                </p>
-
-            </fieldset>
+            <label for="birth">Full date of birth</label>    
+            <input name="birth" type="date" id="birth"><br>
             <br>
 
-            <input type="submit" value="Submit">
+            <label for="accept">I accept the term of the agreemen </label>
+            <input name="accept" type="checkbox" value="yes" id="accept">
+        </fieldset>
+
+        <fieldset>
+            <legend> Registration </legend>
+
+            <label for="email">E-mail</label>
+            <input name="email" type="email" autocomplete="off" id="email"><br>
+            <br>
+
+            <label for="password">Password</label>
+            <input name="password" type="password" id="password"><br>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend> An interesting fact about you! </legend>
+
+            <p> Do you love cats</p>
+            <label for="yes">Yes</label>
+            <input type="radio" name="pet" id="yes" value="yes"><br>
+
+            <label for="no">Not</label>
+            <input type="radio" name="pet" id="no" value="no"><br>
+
+            <label for="color">what is your favorite color?</label> 
+            <input name="color" type="color" id="color"><br>
+            <br>
+
+            <label for="time">What time do you go to bed</label>
+            <input name="time" type="time" id="time">
+            <br>
+
+            <label for="cars">What your favorite brand of cars</label><br>
+            <br>
+
+            <select name="car" list="cars" id="cars" size="4" multiple>
+                <option value="s1">BMW</option>
+                <option value="s2">Audi</option>
+                <option value="s3"selected>Lada</option>
+                <option value="s4" disabled>&nbsp;</option>
+            </select>
+            <br>
+            
+            <label for="range">How do you rate your work</label><br>
+            <input name="range" type="range" min="0" max="100" step="1" value="50" id="range"><br>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your comments:</legend>
+
+            <p>
+                <textarea name="comment" placeholder="comment here" maxlength="250"></textarea>
+            </p>
+        </fieldset>
+        <br>
+        
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
